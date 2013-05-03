@@ -70,7 +70,7 @@ class Page implements IteratorAggregate
 			return $this->page->$property;
 		}
 
-		return false;
+		return null;
 	}
 
 	/**
